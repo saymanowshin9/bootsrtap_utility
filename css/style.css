@@ -1,0 +1,19 @@
+.mh{min-height: 300px;
+	
+
+}
+.box{
+	margin-bottom: 10px;
+	height: 100px;
+	background-color: red;
+}
+.box2 {
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+	background-color: #000000;
+}
+p {
+	margin: 2px;
+	border: 3px solid red;
+}

@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- meta -->
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Bootstrap </title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+
+  <body>
+    <div class="container mb-2">
+      <div class="row mh bg-dark ">
+        <div class="col-lg-4">
+          <div class="box">1</div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box">2</div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box">3</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-2">
+      <div class="row mh bg-info align-items-center ">
+        <div class="col-lg-4">
+          <div class="box">1</div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box">2</div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box">3</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container mb-2">
+      <div class="row mh bg-warning align-items-end ">
+        <div class="col-lg-4">
+          <div class="box">1</div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box">2</div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box">3</div>
+        </div>
+      </div>
+    </div>
+
+     <div class="container mb-2">
+      <div class="row mh bg-success justify-content-between">
+        <div class="col-lg-3">
+          <div class="box">1</div>
+        </div>
+        <div class="col-lg-3">
+          <div class="box">2</div>
+        </div>
+      </div>
+    </div>
+
+      <div class="container mb-2">
+        <div class="row mh bg-info align-items-center justify-content-center">
+          
+          <div class="col-lg-5">
+            <div class="box"></div>
+          </div>
+          <div class="col-lg-5">
+            <div class="box"></div>
+          </div>
+          <div class="col-lg-5">
+            <div class="box"></div>
+          </div>
+          <div class="col-lg-5">
+            <div class="box"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <form>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="emai" class="form-control email" id="email" name="email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="Password" class="form-label">Password</label>
+            <input type="password" class="form-control Password" id="Password" name="Password" required>
+          </div>
+
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="Check" name="Check">
+            <label class="form-check-label" for="Check">Check me out</label>
+          </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+      <div class="container mt-5 bg-info">
+        <!-- <form> -->
+          <form class="row g-3 needs-validation" novalidate>
+
+            <!-- firstname -->
+            <div class="col-md-4">
+              <label for="first name" class="form-label">First name</label>
+             <input type="text" class="form-control" id="first name" placeholder=" enter first name" required>
+              <div class="invalid-feedback">
+                 please enter your first name
+              </div>
+
+           </div>
+  <div class="col-md-4">
+    <label for="last name" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="last name"  required>
+    <div class="invalid-feedback">
+      please enter your last name
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustomUsername" class="form-label">Username</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+      <div class="invalid-feedback">
+        Please choose a username.
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="validationCustom04" class="form-label">State</label>
+    <select class="form-select" id="validationCustom04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-md-3">
+    <label for="zip code" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="validationCustom05" required>
+    <div class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form>
+        <!-- </form> -->
+      </div>
+
+      <div class="container mt-3 mb-3 bg-dark">
+        <div class="row">
+          <div class="box2  border border-danger"></div>
+          <div class="box2 border-top border-info"></div>
+          <div class="box2 border-bottom border-success"></div>
+          <div class="box2 border-start border-primary"></div>
+          <div class="box2 border-end border-secondary"></div>
+          <div class="box2 border border-top-0"></div>
+          <div class="box2 border border-bottom-0"></div>
+          <div class="box2 border border-start-0"></div>
+          <div class="box2 border border-end-0"></div>
+          <div class="box2 border border-3"></div>
+          <div class="box2 border border-5"></div>
+        </div>
+      </div>
+
+      <div class="container mb-2 text-center">
+        <div class="d-flex flex-row bg-info justify-content-between">
+          <p>Hello world!</p>
+          <p>Hello world!</p>
+          <p>Hello world!</p>
+          <p>Hello world!</p>
+
+        </div>
+      </div>
+
+      <div class="container mb-2 text-center">
+        <div class="d-flex flex-column bg-info">
+          <p>Hello4 world!</p>
+          <p>Hello1 world!</p>
+          <p>Hello2 world!</p>
+          <p>Hello3 world!</p>
+
+        </div>
+      </div>
+      <div class="container text-center text-uppercase mb-2">
+        <h1 class="shadow">hello world</h1>
+      </div>
+
+       
+    
+
+   
+
+   
+    
+    <!-- js link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
